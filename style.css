@@ -1,0 +1,111 @@
+:root {
+    --heading: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+    font-family: 'Open sans', sans-serif;
+}
+
+section.home {
+    /* background-image: linear-gradient(to bottom, rgba(179,17,17),#b31d16, #b2251a, #b22d1f, #b13323), url('D3.jpeg'); */
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar, .nav {
+    background-color: #E7E3E4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navbar a, .nav a {
+    text-decoration: none;
+    color: #111;
+}
+
+.navbar {
+    height: 80px;
+    /* box-shadow: 5px 5px black; */
+}
+
+.nav {
+    background-color: rgba(179,17,17);
+    height: 50px;
+}
+
+.nav-1 {
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.nav-1 input {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 5px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    cursor: pointer;
+}
+
+.nav-2 {
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+input[type="button"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 90px;
+}
+
+main {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.recent {
+    /* background-color: #976464; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recent-text {
+    width: 50%;
+    padding: 20px;
+    text-align: justify;
+}
+
+.recent-text button {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #b31d16;
+}
