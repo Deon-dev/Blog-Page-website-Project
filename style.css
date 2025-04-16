@@ -35,6 +35,10 @@ section.home {
     color: #042222;
 }
 
+a {
+    text-decoration: none;
+}
+
 .navbar {
     height: 80px;
     /* box-shadow: 5px 5px black; */
@@ -137,6 +141,7 @@ main {
     text-align: center;
     height: 120px;
     background-color: #03624C;
+    color: #fff;
 }
 
 .newsletter input[type="email"] {
@@ -144,15 +149,60 @@ main {
     height: 40px;
     padding: 0 10px;
     border-radius: none;
+    margin-top: 5px;
+    outline: none;
 }
 
 .newsletter input[type="submit"] {
     width: 90px;
     height: 40px;
     border-radius: none;
+    margin-top: 5px;
+    background-color: rgb(0, 223, 130, 0.7);
+    border: none;
+    cursor: pointer;
 }
 
 footer {
     background-color: #03624C;
-    height: 150px;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
+
+footer i {
+    font-size: 18px;
+}
+
+footer a {
+    color: #ccc;
+}
+
+
+.footer-box {
+    display: flex;
+    width: 70%;
+}
+
+.footer-box .contact-icons {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-box .footer-links {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.footer-box .rights {
+    display: flex;
+    align-items: center;
+    color: rgb(218, 215, 215);
+}
+
