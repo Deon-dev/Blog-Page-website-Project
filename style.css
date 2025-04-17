@@ -89,41 +89,15 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
 }
 
-.swiper {
-    width: 80%;
-}
-
-.recent {
-    /* background-color: #976464; */
-    display: flex;
-    justify-content: space-between;
-}
-
-.recent-text {
-    width: 50%;
-    padding: 20px;
-    text-align: justify;
-}
-
-.recent-text button {
-    margin-top: 20px;
-    width: 150px;
-    height: 50px;
-    text-align: center;
-    background-color: transparent;
-    border: 1px solid red;
-    border-radius: 10px;
-    cursor: pointer;
-    color: #b31d16;
-}
 
 .body {
     display: flex;
     justify-content: center;
 }
+
 
 .pact {
     /* background-color: #bbb; */
@@ -135,6 +109,12 @@ main {
     background-color: rgba(214, 217, 220, 0.562);
     display: flex;
     justify-content: space-between;
+}
+
+.box-content {
+    text-align: justify;
+    padding: 15px;
+    line-height: normal;
 }
 
 .newsletter {
@@ -198,6 +178,11 @@ footer a {
     display: flex;
     flex-direction: column;
     text-align: left;
+    color: rgb(218, 215, 215);
+}
+
+.footer-box .footer-links .cod {
+    /* border-bottom: 1px solid #fff; */
 }
 
 .footer-box .rights {

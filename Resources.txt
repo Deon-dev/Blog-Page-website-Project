@@ -1,2 +1,9 @@
 COLORS TO USE
 1. #E7E3E4,,,,#0E1726(#0E1726),,,#707070(Gray)
+
+COLORS of Green 
+1. header (#294E28)
+2. nav (#316C40)
+3. background (#FDFFF6)
+4. buttons (#E2F878)
+Dark green (#031A09)
