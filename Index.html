@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deon Hubspot - Blog Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
-    <title>Deon Hubspot - Blog Page</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         .swiper {
             width: 100%;
-            height: 100%;
+            height: 300px; /* Adjust height as needed */
         }
 
         .swiper-slide {
@@ -86,7 +85,6 @@
             background: #0056b3;
         }
     </style>
-
 </head>
 <body id="body">
     <section class="home">
@@ -126,7 +124,6 @@
                             <p>Discover the latest research on happiness and well-being. Learn how to cultivate a positive mindset, build resilience, and improve your overall quality of life. Get ready to unlock the secrets to a happier, healthier you. Start your journey to happiness today!</p>
                             <a href="#"><button type="button">START READING <i class="bi bi-arrow-right-circle"></i></button></a>
                         </div>
-                        <!-- <img src="Images/D3.jpeg" alt=""> -->
                     </div>
                     <div class="swiper-slide recent">
                         <div class="recent-text">
@@ -134,7 +131,6 @@
                             <h3>5 Simple Habits to Boost Productivity</h3>
                             <p>Discover the secrets to achieving more in less time. Learn how to prioritize tasks, manage distractions, and stay focused on your goals. Get ready to transform your daily routine and unlock your full potential. Start your journey to success today!</p>
                         </div>
-                        <!-- <img src="Images/D2.jpeg" alt=""> -->
                     </div>
                     <div class="swiper-slide recent">
                         <div class="recent-text">
@@ -142,19 +138,13 @@
                             <h3>How Embracing Your Fears Can Set You Free</h3>
                             <p>Explore the concept of vulnerability and how it can lead to personal growth and empowerment. Learn how to confront your fears, build meaningful relationships, and live a more authentic life. Join the conversation and start your journey to freedom.</p>
                         </div>
-                        <!-- <img src="Images/D1.jpeg" alt=""> -->
                     </div>
                 </div>
-                <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
-                <!-- Add Navigation -->
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
             </div>
-
-            <!-- Swiper JS -->
             <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-            <!-- Initialize Swiper -->
             <script>
                 const swiper = new Swiper('.mySwiper', {
                     loop: true,

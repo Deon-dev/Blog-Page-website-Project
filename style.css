@@ -117,9 +117,11 @@ main {
     line-height: normal;
 }
 
+
+
 .newsletter {
     text-align: center;
-    height: 120px;
+    padding: 20px;
     background-color: #03624C;
     color: #fff;
 }
@@ -128,19 +130,25 @@ main {
     width: 300px;
     height: 40px;
     padding: 0 10px;
-    border-radius: none;
-    margin-top: 5px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
     outline: none;
 }
 
 .newsletter input[type="submit"] {
-    width: 90px;
+    width: 100px;
     height: 40px;
-    border-radius: none;
-    margin-top: 5px;
-    background-color: rgb(0, 223, 130, 0.7);
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+}
+
+.newsletter input[type="submit"]:hover {
+    background-color: #0056b3;
 }
 
 footer {
@@ -181,13 +189,15 @@ footer a {
     color: rgb(218, 215, 215);
 }
 
-.footer-box .footer-links .cod {
-    /* border-bottom: 1px solid #fff; */
-}
-
 .footer-box .rights {
     display: flex;
     align-items: center;
     color: rgb(218, 215, 215);
+}
+
+.blog-image {
+    height: 300px;
+    width: 450px;
+    object-fit: cover; /* Ensures the image scales properly */
 }
 
