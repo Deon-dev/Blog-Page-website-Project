@@ -11,17 +11,23 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
+        :root {
+    --heading: 'Poppins', sans-serif;
+    --footer: #03624C;
+}
         .swiper {
-            width: 100%;
-            height: 300px; /* Adjust height as needed */
+            width: 80%;
+            height: 400px; /* Adjust height as needed */
+            margin: 0 auto; /* Center the swiper */
+            /* padding: 20px 0; Add some padding around the swiper */
         }
 
         .swiper-slide {
             display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
+            /* align-items: center; */
+            /* justify-content: center; */
+            /* flex-direction: column; */
+            /* text-align: center; */
             background: #f9f9f9;
             border-radius: 10px;
             overflow: hidden;
@@ -29,9 +35,17 @@
         }
 
         .swiper-slide img {
-            width: 100%;
             height: auto;
-            border-bottom: 5px solid #ddd;
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 10px; /* Adjust the radius as needed */
+        }
+
+        .swiper-slide img:hover {
+            transform: scale(1.05); /* Slight zoom effect */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
         }
 
         .recent-text {
@@ -42,12 +56,14 @@
             font-size: 1.8rem;
             margin-bottom: 10px;
             color: #333;
+            font-family: var(--heading);
         }
 
         .recent-text h3 {
             font-size: 1.2rem;
             margin-bottom: 15px;
             color: #555;
+            font-family: var(--heading);
         }
 
         .recent-text p {
@@ -107,7 +123,7 @@
             </div>
         </nav>
         <div class="nav">
-            <a href="#">Educational</a>
+            <a href="Educational.html">Educational</a>
             <a href="#">Lifestyle</a>
             <a href="#">Technology</a>
             <a href="#">News</a>
@@ -124,20 +140,25 @@
                             <p>Discover the latest research on happiness and well-being. Learn how to cultivate a positive mindset, build resilience, and improve your overall quality of life. Get ready to unlock the secrets to a happier, healthier you. Start your journey to happiness today!</p>
                             <a href="#"><button type="button">START READING <i class="bi bi-arrow-right-circle"></i></button></a>
                         </div>
+                        <img src="Images/happiness.avif" alt="Happy family">
                     </div>
                     <div class="swiper-slide recent">
                         <div class="recent-text">
                             <h1>Unlock Your Potential:</h1>
                             <h3>5 Simple Habits to Boost Productivity</h3>
                             <p>Discover the secrets to achieving more in less time. Learn how to prioritize tasks, manage distractions, and stay focused on your goals. Get ready to transform your daily routine and unlock your full potential. Start your journey to success today!</p>
+                            <a href="#"><button type="button">START READING <i class="bi bi-arrow-right-circle"></i></button></a>
                         </div>
+                        <img src="Images/productivity 2.avif" alt="Productivity tips">
                     </div>
                     <div class="swiper-slide recent">
                         <div class="recent-text">
                             <h1>The Power of Vulnerability:</h1>
                             <h3>How Embracing Your Fears Can Set You Free</h3>
                             <p>Explore the concept of vulnerability and how it can lead to personal growth and empowerment. Learn how to confront your fears, build meaningful relationships, and live a more authentic life. Join the conversation and start your journey to freedom.</p>
+                            <a href="#"><button type="button">START READING <i class="bi bi-arrow-right-circle"></i></button></a>
                         </div>
+                        <img src="Images/overcpming fear.avif" alt="Overcoming fear">
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
