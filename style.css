@@ -111,8 +111,12 @@ main {
     border-radius: 10px 0 0 10px;
 }
 
+.box {
+    border: 1px solid #ccc;
+}
+
 .box-content {
-    text-align: justify;
+    /* text-align: justify; */
     padding: 15px;
     line-height: normal;
 }
@@ -196,9 +200,8 @@ footer a {
 }
 
 .blog-image {
-    /* height: 300px; */
     width: 450px;
-    object-fit: cover; /* Ensures the image scales properly */
+    object-fit: cover;
     height: auto;
     max-width: 100%;
     max-height: 100%;
@@ -207,15 +210,20 @@ footer a {
     border-radius: 10px;
 }
 
+.blog-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
 .back-link {
     display: inline-block;
     margin: 20px 0;
-    color: #007bff;
+    color: #111;
     text-decoration: none;
     font-size: 1rem;
 }
 
 .back-link:hover {
-    text-decoration: underline;
+    color: #03624C;
 }
 
